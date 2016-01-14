@@ -1,0 +1,34 @@
+{
+  "name": "teamslackbot",
+  "version": "0.0.1",
+  "description": "team used slack bot serve some requests",
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Imgeagle/team-slack-bot.git"
+  },
+  "author": "Tony Li",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "node-trello": "^1.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Imgeagle/team-slack-bot/issues"
+  },
+  "homepage": "https://github.com/Imgeagle/team-slack-bot",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "request": "^2.67.0"
+  }
+}
